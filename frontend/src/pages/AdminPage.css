@@ -1,0 +1,109 @@
+.admin-dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  min-height: 100vh;
+  background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.admin-header {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.post-form-container {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.post-form-container h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.post-form-container input,
+.post-form-container textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.post-form-container button {
+  background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+  color: white;
+  padding: 0.75rem;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.post-form-container button:hover {
+  opacity: 0.9;
+}
+
+.admin-post-list {
+  width: 90%;
+  max-width: 800px;
+}
+
+.admin-post-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.admin-post-card h4 {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.admin-post-card p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.admin-post-card .btn-group {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.admin-post-card button {
+  border: none;
+  background-color: #f28b82;
+  padding: 0.4rem 0.8rem;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: 0.2s ease;
+}
+
+.admin-post-card button.edit-btn {
+  background-color: #8ab4f8;
+}
+
+.admin-post-card button:hover {
+  opacity: 0.8;
+}
