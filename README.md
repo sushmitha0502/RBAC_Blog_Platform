@@ -109,20 +109,7 @@ npm start
 
 ---
 
-## 📷 Screenshots
 
-| Login Page | Admin Dashboard |
-|------------|-----------------|
-| ![Login](./screenshots/login.png) | ![Admin](./screenshots/admin.png) |
-
----
-
-## 🙌 Contribution
-
-PRs and suggestions welcome!  
-Make sure to follow ESLint and Prettier guidelines if contributing.
-
----
 
 ## 📝 License
 
